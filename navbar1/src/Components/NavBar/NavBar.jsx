@@ -4,7 +4,7 @@ import CartWidget from "../CartWidget/CartWidget";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
@@ -15,7 +15,7 @@ const Navbar = () => {
               <Categories/>
             </ul>
           </div>
-          <CartWidget quanCart={1}/>
+          <CartWidget/>
         </div>
         </nav>
     );

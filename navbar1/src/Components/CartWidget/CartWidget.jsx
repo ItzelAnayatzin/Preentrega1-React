@@ -1,8 +1,8 @@
-const CartWidget = ({quanCart}) => {
+const CartWidget = () => {
     return (
         <div>
-            <img src="../Cart.ico" alt="" />
-            <p>{quanCart}</p>
+            <button className="btn">Carrito</button>
+            <p>1</p>
         </div>
     );
 }
