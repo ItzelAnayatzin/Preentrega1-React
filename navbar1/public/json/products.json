@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "idCategory": 2,
+        "idCategory": 1,
         "name": "Ramyeon",
         "description": "Deliciosa sopa de fideos acompañada de vegetales y tocino.",
         "price": 85,
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "idCategory": 3,
+        "idCategory": 1,
         "name": "Bibimbap",
         "description": "Tazón de arroz blanco acompañado de espinacas, champiñones, carne de res, zanahoria, calabacita y huevo frito.",
         "price": 95,
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "idCategory": 4,
+        "idCategory": 1,
         "name": "Crepa Salada",
         "description": "Ingredientes: queso mozarella, queso crema, jamón, peperoni y champiñones.",
         "price": 65,
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "idCategory": 5,
+        "idCategory": 1,
         "name": "Crepa Dulce",
         "description": "Ingredientes: Crema de avellana, cajeta y mermelada de fresa.",
         "price": 65,
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "idCategory": 6,
+        "idCategory": 1,
         "name": "Waffle con Helado",
         "description": "Doradito al natural, acompañado de dos bolitas de helado del sabor a tu elección.",
         "price": 65,
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "idCategory": 7,
+        "idCategory": 2,
         "name": "Café Espresso",
         "description": "De sabor y textura concentrados.",
         "price": 20,
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "idCategory": 8,
+        "idCategory": 2,
         "name": "Espresso Cortado",
         "description": "Acompañado de un toque de leche.",
         "price": 25,
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "idCategory": 9,
+        "idCategory": 2,
         "name": "Café Americano",
         "description": "El clásico.",
         "price": 30,
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "idCategory": 10,
+        "idCategory": 2,
         "name": "Capuccino",
         "description": "Preparado con café y la tradicional espuma de leche tibia.",
         "price": 50,
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "idCategory": 11,
+        "idCategory": 2,
         "name": "Latte",
         "description": "Café espresso como base y una fina capa de leche encima.",
         "price": 50,
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "idCategory": 12,
+        "idCategory": 2,
         "name": "Café Dalgona",
         "description": "Leche fría o caliente acompañada de espuma de café y azúcar.",
         "price": 55,

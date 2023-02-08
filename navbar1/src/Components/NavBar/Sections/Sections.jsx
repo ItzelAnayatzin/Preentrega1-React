@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
 const Sections = () => {
     return (
         <>
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"><button className="btn">Inicio</button></a>
+                <Link className="nav-link" to={"/"}><button className="btn">Inicio</button></Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"><button className="btn">Nosotros</button></a>
+                <Link className="nav-link" to={"/Nosotros"}><button className="btn">Nosotros</button></Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"><button className="btn">Encuentranos</button></a>
+                <Link className="nav-link" to={"/Encuentranos"}><button className="btn">Encuentranos</button></Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"><button className="btn">Promociones</button></a>
+                <Link className="nav-link" to={"/Promociones"}><button className="btn">Promociones</button></Link>
             </li>
         </>
     );

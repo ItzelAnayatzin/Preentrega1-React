@@ -6,17 +6,18 @@ import NavBar from "./NavBar/NavBar";
 import ItemListContainer from "./ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./ItemDetailContainer/ItemDetailContainer";
 
-function App() {
+const App = () => {
   return (
-   <div>
-    <BrowserRouter>
+   <>
+   <BrowserRouter>
         <NavBar/>
         <Routes>
-          <ItemListContainer/>
-          <ItemDetailContainer/>
+          <Route path='/' element={<ItemListContainer/>}/>
+          <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+          <Route path='/category/:idCategory' element={<ItemListContainer/>}/>
         </Routes>
-    </BrowserRouter>
-   </div>
+   </BrowserRouter>    
+   </>
   );
 }
 
